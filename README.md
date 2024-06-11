@@ -1,39 +1,12 @@
 # Code in Place projects
 
-I had two ideas for projects and decided to leave both of them.
-
-## Mood Checker 
-
-### Idea
-
-Start the user's day positively by acknowledging their mood and offering a relevant quote or message to uplift their spirits or celebrate their happiness. 
-The purpose is to provide a simple yet thoughtful interaction that can potentially improve the user's mindset and overall well-being.
-
-### Use case
-
-The primary use case for this project is to serve as a morning routine or daily ritual for individuals who value self-reflection and desire a positive start to their day. 
-It can be particularly useful for those who find comfort in inspirational quotes or motivational messages, especially during challenging times. 
-I am a fan of quotes and I believe they are small pieces of wisdom that connect us as humans.
-
-### How it works
-
-This script enhances the user's mood by providing personalized quotes. It reads quotes from two text files: one for positive moods (happy or okay) and another for negative moods (sad). 
-After prompting the user to input their current mood, the script randomly selects and displays a relevant quote from the corresponding file, offering a tailored, uplifting message to the user.
-
-### Things out of scope
-
-- Mood tracking over time.
-- Personalization that is based on user preferences or specific circumstances
-- Customization options for adding, changing, or removing the quotes from files.
-
-While the Mood Checker project is relatively simple, it could serve as a starting point for more advanced projects or it can be slightly improved for self-reflection purposes.
+I had two different ideas, so I decided to work on both projects. The first one, the Password Storage program, was made as a useful tool for managing passwords for various accounts in daily life. The second project, the Mood Checker program, came from my love for quotes and the impact of powerful words.
 
 ## Password Storage
 
 ### Idea
 
-The project aims to provide a convenient way for users, who frequently test different platforms and have multiple test accounts, to store their passwords. 
-The main idea behind this project is to simplify the process of generating, storing, and retrieving passwords for test accounts or other accounts that do not require a high level of security. 
+The project aims to provide a convenient way for users, especially those who frequently test different platforms and have multiple test accounts, to simplify the process of generating, storing, and retrieving passwords. The main idea is to allow users to store passwords for test accounts or other accounts that do not require a high level of security in a file regularly synced with cloud storage, enabling easy access to these passwords across devices.
 
 ### Use case
 
@@ -57,3 +30,29 @@ After adding a new password, the script displays the current number of passwords
 - Excluding specific symbols from the password generation process
   
 I believe this project serves as a simple yet efficient solution for individuals who need to generate secure passwords, associate them with memorable keywords, and store them in a centralized location, allowing easy access from anywhere for managing test accounts or accounts that do not require robust security measures.
+
+## Mood Checker 
+
+### Idea
+
+The project aims to start the user's day positively by acknowledging their mood and offering a relevant quote or message to uplift their spirits or celebrate their happiness. 
+The purpose is to provide a simple yet thoughtful interaction that can potentially improve the user's mindset and overall well-being.
+
+### Use case
+
+The primary use case for this project is to serve as a morning routine or daily ritual for individuals who value self-reflection and desire a positive start to their day. 
+It can be particularly useful for those who find comfort in inspirational quotes or motivational messages, especially during challenging times. 
+I am a fan of quotes and I believe they are small pieces of wisdom that connect us as humans.
+
+### How it works
+
+This script enhances the user's mood by providing personalized quotes. It reads quotes from two text files: one for positive moods (happy or okay) and another for negative moods (sad). 
+After prompting the user to input their current mood, the script randomly selects and displays a relevant quote from the corresponding file, offering a tailored, uplifting message to the user.
+
+### Things out of scope
+
+- Mood tracking over time.
+- Personalization that is based on user preferences or specific circumstances
+- Customization options for adding, changing, or removing the quotes from files.
+
+While the Mood Checker project is relatively simple, it could serve as a starting point for more advanced projects or it can be slightly improved for self-reflection purposes.
