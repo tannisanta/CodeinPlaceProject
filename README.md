@@ -28,7 +28,7 @@ After prompting the user to input their current mood, the script randomly select
 
 While the Mood Checker project is relatively simple, it could serve as a starting point for more advanced projects or it can be slightly improved for self-reflection purposes.
 
-## Password Storage project
+## Password Storage
 
 ### Idea
 
